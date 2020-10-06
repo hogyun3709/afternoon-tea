@@ -19,7 +19,7 @@ export default function App() {
       <Stack.Navigator>
         { user ? (
           <Stack.Screen name="Home">
-            {props => <HomeScreen {...props} extraData={user} />}
+            /*{props => <HomeScreen {...props} extraData={user} />}*/
           </Stack.Screen>
         ) : (
           <>
